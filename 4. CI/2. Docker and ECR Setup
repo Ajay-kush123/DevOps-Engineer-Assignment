@@ -1,0 +1,18 @@
+a. Dockerfile for a Simple Web Service
+Create a file named Dockerfile with the following content:
+
+FROM nginx:alpine
+COPY ./index.html /usr/share/nginx/html/index.html
+
+Create a simple index.html file:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Nginx</title>
+</head>
+<body>
+    <h1>Hello from Nginx!</h1>
+</body>
+</html>
+
+
